@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Text, View, StyleSheet } from "react-native";
 import ButtonStyles from "./ButtonStyles";
-import { blue, white, gray, orange, pink } from "../utils/colors";
+import { white, pink } from "../utils/colors";
 
 class QuizCard extends Component {
   state = {

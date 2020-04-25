@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Text, StyleSheet, KeyboardAvoidingView } from "react-native";
 import ButtonStyles from '../components/ButtonStyles'
-import { white, gray, blue } from "../utils/colors";
+import { blue } from "../utils/colors";
 import { handlecreateCard } from "../actions/card";
 import InputTextStyles from '../components/InputTextStyles'
 

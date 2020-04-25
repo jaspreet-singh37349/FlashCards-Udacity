@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Text, View, StyleSheet } from "react-native";
 import ButtonStyles from "../components/ButtonStyles";
-import { green, gray, white, red, orange,lightPurp } from "../utils/colors";
+import { green, gray, white, red, lightPurp } from "../utils/colors";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import {handledeleteDeck} from '../actions/decks'
 

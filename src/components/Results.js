@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
-import { purple, white, gray, green, red, pink } from "../utils/colors";
+import { white, gray, green, red, pink } from "../utils/colors";
 import ButtonStyles from "./ButtonStyles";
 
 const Resuts = ({correct,incorrect,restart,navigation}) => (
