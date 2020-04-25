@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Provider } from "react-redux";
 import {createStackNavigator} from "react-navigation-stack";
 import {createBottomTabNavigator} from 'react-navigation-tabs'
-import { Feather } from "@expo/vector-icons";
+import { MaterialIcons, MaterialCommunityIcons } from "@expo/vector-icons";
 import {createAppContainer} from 'react-navigation'
 import { white, purple } from "./src/utils/colors";
 import DeckLists from "./src/screens/DeckLists";
@@ -20,7 +20,7 @@ const Tabs = createBottomTabNavigator(
       navigationOptions: {
         tabBarLabel: "Decks",
         tabBarIcon: ({ tintColor }) => (
-          <Feather name="list" size={30} color={tintColor} />
+          <MaterialCommunityIcons name="format-list-bulleted" size={30} color={tintColor} />
         )
       }
     },
@@ -29,7 +29,7 @@ const Tabs = createBottomTabNavigator(
       navigationOptions: {
         tabBarLabel: "New Deck",
         tabBarIcon: ({ tintColor }) => (
-          <Feather name="plus" size={30} color={tintColor} />
+          <MaterialIcons name="add" size={30} color={tintColor} />
         )
       }
     }
@@ -42,14 +42,7 @@ const Tabs = createBottomTabNavigator(
       activeTintColor: purple,
       style: {
         height: 60,
-        backgroundColor: white,
-        shadowColor: "rgba(0, 0, 0, 0.24)",
-        shadowOffset: {
-          width: 0,
-          height: 3
-        },
-        shadowRadius: 6,
-        shadowOpacity: 1
+        backgroundColor: white
       },
       labelStyle: {
         paddingTop: 3,
