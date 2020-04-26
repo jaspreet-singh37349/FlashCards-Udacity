@@ -14,3 +14,7 @@ This is the Last Project of the Udacity React Nanodegree Program. The main aim o
 2. `cd FlashCards-Udacity` then run `npm install`
 3. `expo start` to start the app then browser will be opened with QR code.
 4. Scan the QR code using your expo app scanner and your app will be installed.
+
+## APK
+
+To see the app in action you can install the app on your android device from the 'Apk' folder.
